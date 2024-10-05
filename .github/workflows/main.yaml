@@ -19,7 +19,7 @@ jobs:
 ### ⬇ IMPORTANT PART ⬇ ###
 
       - name: Build, Push and Release a Docker container to Heroku. # Your custom step name
-        uses: gonuit/heroku-docker-deploy@v1.3.3 # GitHub action name (leave it as it is).....
+        uses: akhileshns/heroku-deploy-v2@v3.13.15 # GitHub action name (leave it as it is).....
         with:
           # Below you must provide variables for your Heroku app.
 
@@ -29,7 +29,7 @@ jobs:
           email: ${{ secrets.HEROKU_EMAIL }}
           
           # Heroku API key associated with provided user's email.
-          # Api Key is available under your Heroku account settings.
+          # Api Key is available under your Heroku account settings.gi
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           
           # Name of the heroku application to which the build is to be sent.
