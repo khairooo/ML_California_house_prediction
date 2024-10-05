@@ -1,16 +1,24 @@
-# ML_California_house_prediction
-- This project is one off my MLOPS learning projects where I attempted to use A Linear regression model to predict Houses prices an deploy the model on Heroku 
 
-## Software and Tools Requirements 
+# MLOps Learning Project: House Price Prediction
+This repository contains a project where I explore MLOps practices using a Linear Regression model to predict house prices. The model is trained and deployed on Heroku.
 
-- 1. [Github Account](https://github.com)
-- 2. [VScodeIDE] (https://code.visualstudio.com/)
-- 3. [HerokuAccount] (https://heroku.com)
+## Project Overview
+- Objective: Predict house prices using a Linear Regression model
+
+- Deployment: Deployed on Heroku
+
+## Files
+- Californian_houses/: Contains the dataset used for training
+
+- ML_ops_with_docker_github.ipynb/: Jupyter notebooks for data exploration and model training
 
 
-Create an new environment 
+How to Run
+Clone the repository
 
-'''
-conda create -p venv python == 3.8 -y 
-'''
+Install dependencies: pip install -r requirements.txt
 
+Run the app: heroku local web
+
+Acknowledgements
+This project is part of my MLOps learning journey.
